@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1516726310 source:c:\users\gionatatratzi\desktop\rivisitazioneprogetto2017\codeblocksbase2017\riv2017codeblocks5\progetto2017\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<stdbool.h>
+	"macro_strutture_stringhe.h"
+	"carte_da_gioco.h"
+	"gestione_carte.h"
+	"istruzioni.h"
+
+1511543931 c:\users\gionatatratzi\desktop\rivisitazioneprogetto2017\codeblocksbase2017\riv2017codeblocks5\progetto2017\variabili_globali.h
+
+1512663764 c:\users\gionatatratzi\desktop\rivisitazioneprogetto2017\codeblocksbase2017\riv2017codeblocks5\progetto2017\meooow.h
+
+1512662051 c:\users\gionatatratzi\desktop\rivisitazioneprogetto2017\codeblocksbase2017\riv2017codeblocks5\progetto2017\nope.h
+
+1514035644 c:\users\gionatatratzi\desktop\rivisitazioneprogetto2017\codeblocksbase2017\riv2017codeblocks5\progetto2017\exploding_djanni.h
+
+1513962091 c:\users\gionatatratzi\desktop\rivisitazioneprogetto2017\codeblocksbase2017\riv2017codeblocks5\progetto2017\shuffle.h
+
+1513962013 c:\users\gionatatratzi\desktop\rivisitazioneprogetto2017\codeblocksbase2017\riv2017codeblocks5\progetto2017\see_the_future.h
+
+1513961601 c:\users\gionatatratzi\desktop\rivisitazioneprogetto2017\codeblocksbase2017\riv2017codeblocks5\progetto2017\attack.h
+
+1513962166 c:\users\gionatatratzi\desktop\rivisitazioneprogetto2017\codeblocksbase2017\riv2017codeblocks5\progetto2017\skip.h
+
+1514021358 c:\users\gionatatratzi\desktop\rivisitazioneprogetto2017\codeblocksbase2017\riv2017codeblocks5\progetto2017\favor.h
+
+1514021336 c:\users\gionatatratzi\desktop\rivisitazioneprogetto2017\codeblocksbase2017\riv2017codeblocks5\progetto2017\djanni_cards.h
+
+1514121598 c:\users\gionatatratzi\desktop\rivisitazioneprogetto2017\codeblocksbase2017\riv2017codeblocks5\progetto2017\istruzioni.h
+
+1516726113 c:\users\gionatatratzi\desktop\rivisitazioneprogetto2017\codeblocksbase2017\riv2017codeblocks5\progetto2017\macro_strutture_stringhe.h
+
+1516725870 c:\users\gionatatratzi\desktop\rivisitazioneprogetto2017\codeblocksbase2017\riv2017codeblocks5\progetto2017\carte_da_gioco.h
+
+1516726070 c:\users\gionatatratzi\desktop\rivisitazioneprogetto2017\codeblocksbase2017\riv2017codeblocks5\progetto2017\gestione_carte.h
+
