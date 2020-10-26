@@ -63,6 +63,8 @@ esempio: creare un sistema AI che giochi sempre la prima carta del giocatore avr
 precedente e delle carte disponibili punterà ad una valutazione di 5 su 5. Il computer deve tentare di
 vincere!
 
+Significato carte:
+
 1. NOPE (Annulla l'azione di una carta del giocatore precedente)
 blocca l’effetto di un’altra carta, NOPE compreso;
 2. ATTACK (Permette di saltare il turno e costringe il giocatore successivo a fare due turni)
