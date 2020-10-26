@@ -2,6 +2,7 @@
 Progetto di programmazione 1:  Exploding Djanni
 
 Funzionamento generale
+
 Si ha un mazzo si carte che contiene, tra le altre, le carte EXPLODING DJANNI. Si gioca girando carta per
 carta fino a quando qualcuno pesca un EXPLODING DJANNI. Quando la persona pesca la carta esplosiva
 essa stessa esplode, e muore, ovvero è fuori dal gioco. Numero giocatori stabilito a 4.
@@ -20,6 +21,7 @@ o ATTACK. Ci sono altre carte che permettono di vedere le prime tre carte del ma
 carta all’avversario, di impedire un’azione, ecc. Vedi le relative specifiche.
 
 Il Funzionalità base
+
 Nuova partita
 1. caricamento carte file di testo (vedi specifiche file di testo). La lettura deve funzionare per le tre
 tipologie di mazzo (easy, medium, hard) senza mettere embedded il numero di EXPLODING
@@ -40,6 +42,7 @@ Salvataggio partita (nome file predefinito: partita.sav)
 10. commentare opportunamente tutto il codice (in italiano o in inglese);
 
 Funzionalità medie
+
 caricamento e salvataggio nome file inserito dall'utente;
 rendere la carta NOPE utilizzabile da un giocatore qualsiasi in qualsiasi turno;
 memorizzazione mazzo carte in gioco in una lista lineare concatenata (anziché array dinamico);
@@ -49,6 +52,7 @@ e deve essere numerato) in modo da poterne leggerne la “storia”. Devono esse
 carte giocate, estratte e il nome del giocatore che ha compiuto l’azione.
 
 Funzionalità avanzate
+
 Implementare la componente AI (Artificial Intelligence)
 • l'implementazione deve permettere di giocare contro il computer. Il computer dovrà gestire tutti
 i giocatori diversi dall'utente. Il gioco dovrà quindi funzionare per 4 giocatori reali, per 4
