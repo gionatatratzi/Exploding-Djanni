@@ -1,0 +1,3 @@
+#Il progetto Exploding Djanni dopo aver scaricato lo zip
+#la cartella con il file va rinominato in progetto2017 
+#altrimenti il compilatore codeblocks non funziona correttamente
