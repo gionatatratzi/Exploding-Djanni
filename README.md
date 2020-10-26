@@ -32,7 +32,6 @@ Caricamento partita (nome file predefinito: partita.sav)
 specifiche), nessun mescolamento e si inizia dal giocatore a cui spetta il turno di gioco;
 Salvataggio partita (nome file predefinito: partita.sav)
 4. su file binario (vedi specifiche) in ogni momento (qualsiasi turno, qualsiasi giro);
-Varie
 5. scelta casuale del primo giocatore, poi si procede in ordine;
 6. memorizzazione mazzo carte in gioco e carte giocatori in Array Dinamico;
 7. memorizzazione giocatori in Array Statico;
@@ -60,29 +59,29 @@ esempio: creare un sistema AI che giochi sempre la prima carta del giocatore avr
 precedente e delle carte disponibili punterà ad una valutazione di 5 su 5. Il computer deve tentare di
 vincere!
 
-NOPE (Annulla l'azione di una carta del giocatore precedente)
-1. blocca l’effetto di un’altra carta, NOPE compreso;
-ATTACK (Permette di saltare il turno e costringe il giocatore successivo a fare due turni)
-2. il giocatore successivo esegue due turni e può essere annullato dal NOPE o annulla un
+1. NOPE (Annulla l'azione di una carta del giocatore precedente)
+blocca l’effetto di un’altra carta, NOPE compreso;
+2. ATTACK (Permette di saltare il turno e costringe il giocatore successivo a fare due turni)
+il giocatore successivo esegue due turni e può essere annullato dal NOPE o annulla un
 precedente ATTACK che ha effetto quindi sul giocatore successivo;
-SKIP (Permette di non pescare una carta dal mazzo)
-3. il turno passa al giocatore successivo, può essere annullato dal NOPE;
-FAVOR ( Permette al giocatore che la usa di rubare una carta ad un avversario, la carta viene scelta da quest'ultimo. )
-4. Il giocatore deve scegliere un avversario ed egli sceglierà quale carta dargli, può essere annullato
+3. SKIP (Permette di non pescare una carta dal mazzo)
+il turno passa al giocatore successivo, può essere annullato dal NOPE;
+4. FAVOR ( Permette al giocatore che la usa di rubare una carta ad un avversario, la carta viene scelta da quest'ultimo. )
+Il giocatore deve scegliere un avversario ed egli sceglierà quale carta dargli, può essere annullato
 dalla carta NOPE;
-SEE THE FUTURE (Permette di vedere le prime tre carte del mazzo)
-5. il giocatore può vedere le prime tre carte del mazzo, può essere annullato dal NOPE;
-SHUFFLE (Permette di mischiare il mazzo)
-6. il mazzo deve essere mescolato, può essere annullato dal NOPE
-DJANNI CARDS (Permettono di rubare carte all’avversario se giocate in coppia identica o tripla identica)
-7. se giocata da sola non ha effetto; se giocata in coppia, il giocatore deve scegliere un avversario e
+5. SEE THE FUTURE (Permette di vedere le prime tre carte del mazzo)
+il giocatore può vedere le prime tre carte del mazzo, può essere annullato dal NOPE;
+6. SHUFFLE (Permette di mischiare il mazzo)
+il mazzo deve essere mescolato, può essere annullato dal NOPE
+7. DJANNI CARDS (Permettono di rubare carte all’avversario se giocate in coppia identica o tripla identica)
+se giocata da sola non ha effetto; se giocata in coppia, il giocatore deve scegliere un avversario e
 prenderà a caso una sua carta; se giocata in tripla, il giocatore deve scegliere un avversario e
 prenderà una sua carta a scelta (funzionalità media), può essere annullata dal NOPE;
-EXPLODING DJANNI (Causa l’uscita dal gioco)
-8. causa l’uscita del giocatore a meno che egli non giochi una carta MEOOOW, solo in questo caso
+8. EXPLODING DJANNI (Causa l’uscita dal gioco)
+causa l’uscita del giocatore a meno che egli non giochi una carta MEOOOW, solo in questo caso
 la carta EXPLODING DJANNI deve essere rimessa nel mazzo in posizione casuale;
-MEOOOW (Permette di salvarsi in seguito alla carta EXPLODING DJANNI)
-9. Permette di restare in gioco nel caso in cui sia uscita la carta EXPLODING DJANNI.
+9. MEOOOW (Permette di salvarsi in seguito alla carta EXPLODING DJANNI)
+Permette di restare in gioco nel caso in cui sia uscita la carta EXPLODING DJANNI.
 
 Il file binario è così strutturato:
 1. un blocco per giocatore, contenente:
